@@ -11,22 +11,47 @@
         }
         #top {
             padding: 5%;
-            align-items: flex-end;
         }
         #middle {
             align-items: center;
-            text-align: center;
-            font-size: 400%;
+            text-align: center; 
         }
+      #A{
+        padding: 20px;
+      }
+      #C{
+        padding: 30px;
+      }
+      #D{
+        font-size: 13px;
+      }
+      #bottom{
+        padding: 10%;
+      }
+      footer{
+        padding:0px
+      }
+      #run{
+        border-radius:25px;
+        border: 1px solid ;
+        padding: 10px;
+        width:200px;
+        height:150px;
+      }
+
       #image{
         max-width: 100%;
-        height: 20px;
+        height: 17px;
+      }
+
+      #righty{
+        float: right;
       }
     </style>
 </head>
 <body>
   <header>
- <a href="#">Gmail</a> <a href="#">Images</a> <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjCfTfkWbdUd_auh3h3tPiUNyHpOUg_LN8PZNQfbq74hKE6zPd&usqp=CAU" alt="Google Apps" id="image"> </a>
+ <a href="#">Gmail</a> &nbsp <a href="#">Images</a> &nbsp<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjCfTfkWbdUd_auh3h3tPiUNyHpOUg_LN8PZNQfbq74hKE6zPd&usqp=CAU" alt="Google Apps" id="image"> </a>
   </header>
     <div id="background">
         <div id="top">
@@ -34,27 +59,36 @@
         </div>
         <div id="middle">
            <div id =A>
-             <text style = "color : blue">G</text><text style = "color : red">o</text><text style = "color : yellow">o</text><text style = "color : blue">g</text><text style = "color : green">l</text><text style = "color : red">e</text>
+             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"> 
            </div> 
-           <div id="B">
+           <div id="B"> <span id="run">
+             <img   src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_3khS9UWSf4uLSE5F2EqvlQ85UUqsVgOmUde59mj2s7y3CN0n&usqp=CAU" alt="search" id="image">
              <label>
-               <input type ="text">
-             </label>
+               <input type ="text" size="55">
+             </label> </span>
            </div>
            <div id="C">
              <label>
                <button type ="submit">Google Search</button>
-               <button type ="submit">I'm Feeling Lucky</button>
+               &nbsp<button type ="submit">I'm Feeling Lucky</button>
              </label>
            </div>
-          <br>
-          <div id="D" style ="font-size: 20% ">
-          Google offered in <a href="#">Hausa</a> <a href="#">  Igbo</a> <a href="#">  Yoruba</a> <a href="#">Nigerian Pidgin</a>
+          
+          <div id="D">
+          Google offered in &nbsp<a href="#">Hausa</a> &nbsp <a href="#">  Igbo</a> &nbsp<a href="#">  Yoruba</a>&nbsp <a href="#">Nigerian Pidgin</a>
           </div>
         </div>
-        <div id="bottom">
-
-        </div>
+      <div id="bottom"></div>
+        
+      <footer>
+Nigeria
+          <hr>
+          <div id="left">
+            <a href="#">Advertising</a> &nbsp<a href="#">  Business</a> &nbsp<a href="#">  About</a> &nbsp<a href="#">How search works</a>
+         
+            <span id="righty"> <a href="#">  Privacy</a> &nbsp<a href="#">  Terms</a> &nbsp<a href="#">Settings</a></span>
+          </div>
+        </footer>
 
     </div>
 </body>
